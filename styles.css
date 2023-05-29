@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+/* footer style */
 .main-footer {
   min-height: 12em;
   background-color: #666666;
