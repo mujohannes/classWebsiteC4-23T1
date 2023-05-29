@@ -1,3 +1,6 @@
+:root {
+  --theme-color: #eab703;
+}
 body {
   margin: 0;
   min-height: 100vh;
@@ -27,6 +30,16 @@ body {
 .search-form {
   display: flex;
   flex-direction: row;
+  justify-self: center;
+  align-self: center;
+  min-width: 50%;
+}
+.search-form input {
+  flex: 1;
+  padding: 0.5em;
+}
+.search-form button {
+  background-color: var(--theme-color);
 }
 /* footer style */
 .main-footer {
