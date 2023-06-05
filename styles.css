@@ -73,3 +73,13 @@ body {
   min-height: 12em;
   background-color: #666666;
 }
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+  padding: 50px 30px;
+}
+img {
+  max-width: 100%;
+}
