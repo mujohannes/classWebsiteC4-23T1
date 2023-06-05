@@ -86,4 +86,8 @@ img {
 
 .banner {
   grid-column: span 3;
+  min-height: 400px;
+}
+.slide {
+  /* min-height: 400px; */
 }
